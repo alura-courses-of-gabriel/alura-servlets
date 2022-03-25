@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="alura-servlets:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>alura-servlets</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="alura-servlets-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="alura-servlets:war exploded" />
+    </root>
+  </artifact>
+</component>
